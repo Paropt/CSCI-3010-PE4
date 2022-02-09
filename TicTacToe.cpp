@@ -17,9 +17,9 @@ void DisplayBoard(int* board) {
 
 int GetPlayerChoice() {
     int n;
-    cout << "Choose a location (0-9)" << endl;
+    cout << "Choose a location (1-9)" << endl;
     cin >> n;
-    return n;
+    return n - 1;
 }
 
 void PlaceMarker(int loc, int player, int* board) {
@@ -29,5 +29,10 @@ void PlaceMarker(int loc, int player, int* board) {
 int main() {
     int* myBoard = CreateBoard();
     DisplayBoard(myBoard);
-    GetPlayerChoice();
+    // GetPlayerChoice();
+    for (int i = 0; i < 9; i++) {
+        int pos = GetPlayerChoice();
+        PlaceMarker(pos, i%2+1, myBoard);
+        DisplayBoard(myBoard);
+    }
 }

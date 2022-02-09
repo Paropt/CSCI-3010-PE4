@@ -1,0 +1,97 @@
+0 0 0
+0 0 0
+0 0 0
+Choose a location (1-9)
+1 
+1 0 0
+0 0 0
+0 0 0
+Choose a location (1-9)
+2
+1 2 0
+0 0 0
+0 0 0
+Choose a location (1-9)
+3
+1 2 1
+0 0 0
+0 0 0
+Choose a location (1-9)
+4
+1 2 1
+2 0 0
+0 0 0
+Choose a location (1-9)
+5
+1 2 1
+2 1 0
+0 0 0
+Choose a location (1-9)
+66
+1 2 1
+2 1 0
+0 0 0
+Choose a location (1-9)
+7
+1 2 1
+2 1 0
+1 0 0
+Choose a location (1-9)
+8
+1 2 1
+2 1 0
+1 2 0
+Choose a location (1-9)
+9
+1 2 1
+2 1 0
+1 2 1
+noahxn@Noahs-MBP CSCI-3010-PE4 % ./a.out
+0 0 0
+0 0 0
+0 0 0
+Choose a location (1-9)
+1
+1 0 0
+0 0 0
+0 0 0
+Choose a location (1-9)
+2
+1 2 0
+0 0 0
+0 0 0
+Choose a location (1-9)
+3
+1 2 1
+0 0 0
+0 0 0
+Choose a location (1-9)
+4
+1 2 1
+2 0 0
+0 0 0
+Choose a location (1-9)
+5
+1 2 1
+2 1 0
+0 0 0
+Choose a location (1-9)
+6
+1 2 1
+2 1 2
+0 0 0
+Choose a location (1-9)
+7
+1 2 1
+2 1 2
+1 0 0
+Choose a location (1-9)
+8
+1 2 1
+2 1 2
+1 2 0
+Choose a location (1-9)
+9
+1 2 1
+2 1 2
+1 2 1
