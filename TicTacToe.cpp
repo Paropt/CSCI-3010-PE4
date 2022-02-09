@@ -15,9 +15,15 @@ void DisplayBoard(int* board) {
     }
 }
 
+int GetPlayerChoice() {
+    int n;
+    cout << "Choose a location (0-9)" << endl;
+    cin >> n;
+    return n;
+}
+
 int main() {
     int* myBoard = CreateBoard();
-    for (int i = 0; i < 9; i++) {
-        cout << myBoard[i] << endl;
-    }
+    DisplayBoard(myBoard);
+    GetPlayerChoice();
 }
