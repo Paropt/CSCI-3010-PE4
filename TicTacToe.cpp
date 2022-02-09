@@ -20,6 +20,10 @@ void DisplayBoard(int* board) {
      }
 }
 
+void PlaceMarker(int loc, int player, int* board) {
+    board[loc] = player;
+}
+
 int main() {
     int* myBoard = CreateBoard();
     for (int i = 0; i < 9; i++) {
