@@ -10,19 +10,20 @@ int* CreateBoard() {
 }
 
 void DisplayBoard(int* board) {
-    int counter = 0;
-    for (int x = 0; x < 3; x++) {
-        for (int y = 0; y < 3; y++) {
-            cout << board[counter];
-            counter++;
-         }
-        cout << endl;
-     }
+    for (int i = 0; i < 9; i += 3) {
+        cout << board[i] << " " << board[i+1] << " " << board[i+2] << endl;
+    }
+}
+
+int GetPlayerChoice() {
+    int n;
+    cout << "Choose a location (0-9)" << endl;
+    cin >> n;
+    return n;
 }
 
 int main() {
     int* myBoard = CreateBoard();
-    for (int i = 0; i < 9; i++) {
-        cout << myBoard[i] << endl;
-    }
+    DisplayBoard(myBoard);
+    GetPlayerChoice();
 }
