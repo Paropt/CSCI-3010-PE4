@@ -9,6 +9,17 @@ int* CreateBoard() {
     return board;
 }
 
+void DisplayBoard(int* board) {
+    int counter = 0;
+    for (int x = 0; x < 3; x++) {
+        for (int y = 0; y < 3; y++) {
+            cout << board[counter];
+            counter++;
+         }
+        cout << endl;
+     }
+}
+
 int main() {
     int* myBoard = CreateBoard();
     for (int i = 0; i < 9; i++) {
