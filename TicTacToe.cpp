@@ -22,6 +22,10 @@ int GetPlayerChoice() {
     return n;
 }
 
+void PlaceMarker(int loc, int player, int* board) {
+    board[loc] = player;
+}
+
 int main() {
     int* myBoard = CreateBoard();
     DisplayBoard(myBoard);
